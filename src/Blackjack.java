@@ -225,7 +225,7 @@ public class Blackjack {
                 throw new RuntimeException();
             }
         } catch (RuntimeException e) {
-            System.out.println("Geef een geldig rond getal op tussen de 0 en " + kapitaal);
+            System.out.println("Geef een geldig rond getal op tussen de 1 en " + kapitaal);
             geefBedragOp();
         }
         return true;
